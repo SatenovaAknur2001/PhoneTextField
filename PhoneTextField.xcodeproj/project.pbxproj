@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E525FBB26BA52FC00483D37 /* YearTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E525FBA26BA52FC00483D37 /* YearTextField.swift */; };
+		6E525FC026BA533C00483D37 /* YYYCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E525FBF26BA533C00483D37 /* YYYCustomTextField.swift */; };
+		6E525FC226BA570F00483D37 /* CVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E525FC126BA570F00483D37 /* CVTextField.swift */; };
+		6E525FC426BA571B00483D37 /* CVCustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E525FC326BA571B00483D37 /* CVCustomTextfield.swift */; };
+		6E7BE25026BAC0AB001D3144 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE24F26BAC0AB001D3144 /* FilterView.swift */; };
+		6E7BE25326BAC3DF001D3144 /* SizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE25226BAC3DF001D3144 /* SizeTextField.swift */; };
+		6E7BE25526BAC3ED001D3144 /* SizeCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE25426BAC3ED001D3144 /* SizeCustomTextField.swift */; };
+		6E7BE25726BACCE5001D3144 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE25626BACCE5001D3144 /* LoginViewModel.swift */; };
+		6E7BE25C26BACDAC001D3144 /* SizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE25B26BACDAC001D3144 /* SizeView.swift */; };
+		6E7BE26026BAD89D001D3144 /* EditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE25F26BAD89C001D3144 /* EditingView.swift */; };
+		6E7BE26726BAEF06001D3144 /* FillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE26626BAEF06001D3144 /* FillView.swift */; };
+		6E7BE26926BAEFEA001D3144 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE26826BAEFEA001D3144 /* AddContactView.swift */; };
+		6E7BE26C26BAF0F4001D3144 /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE26B26BAF0F4001D3144 /* PhoneNumberTextField.swift */; };
+		6E7BE26E26BAF106001D3144 /* PhoneNumberCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE26D26BAF106001D3144 /* PhoneNumberCustomTextField.swift */; };
+		6E7BE27026BAF37F001D3144 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE26F26BAF37E001D3144 /* ContactView.swift */; };
+		6E7BE27226BAF543001D3144 /* ApplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE27126BAF543001D3144 /* ApplyView.swift */; };
+		6E7BE27526BAF667001D3144 /* DocumentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE27426BAF667001D3144 /* DocumentTextField.swift */; };
+		6E7BE27726BAF676001D3144 /* DocumentCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BE27626BAF676001D3144 /* DocumentCustomTextField.swift */; };
+		6ECB484926B84EDD008F0F4B /* PhoneTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB484826B84EDD008F0F4B /* PhoneTextFieldApp.swift */; };
+		6ECB484B26B84EDD008F0F4B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB484A26B84EDD008F0F4B /* CardView.swift */; };
+		6ECB484D26B84EE2008F0F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECB484C26B84EE2008F0F4B /* Assets.xcassets */; };
+		6ECB485026B84EE2008F0F4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECB484F26B84EE2008F0F4B /* Preview Assets.xcassets */; };
+		6ECB485826B84F17008F0F4B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB485726B84F17008F0F4B /* CustomTextField.swift */; };
+		6ECB485A26B84F50008F0F4B /* ValidateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB485926B84F50008F0F4B /* ValidateViewModel.swift */; };
+		6ECB485C26B84FCB008F0F4B /* PhoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB485B26B84FCB008F0F4B /* PhoneTextField.swift */; };
+		6ECB485E26B85001008F0F4B /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB485D26B85001008F0F4B /* Color+Hex.swift */; };
+		6ECB486026B85061008F0F4B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB485F26B85061008F0F4B /* StringExtension.swift */; };
+		6EF77AC026B9B0FA00D11DCB /* MonthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF77ABF26B9B0FA00D11DCB /* MonthTextField.swift */; };
+		6EF77AC226B9B5F100D11DCB /* MonthCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF77AC126B9B5F100D11DCB /* MonthCustomTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E525FBA26BA52FC00483D37 /* YearTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearTextField.swift; sourceTree = "<group>"; };
+		6E525FBF26BA533C00483D37 /* YYYCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYYCustomTextField.swift; sourceTree = "<group>"; };
+		6E525FC126BA570F00483D37 /* CVTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVTextField.swift; sourceTree = "<group>"; };
+		6E525FC326BA571B00483D37 /* CVCustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCustomTextfield.swift; sourceTree = "<group>"; };
+		6E7BE24F26BAC0AB001D3144 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		6E7BE25226BAC3DF001D3144 /* SizeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeTextField.swift; sourceTree = "<group>"; };
+		6E7BE25426BAC3ED001D3144 /* SizeCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCustomTextField.swift; sourceTree = "<group>"; };
+		6E7BE25626BACCE5001D3144 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6E7BE25B26BACDAC001D3144 /* SizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeView.swift; sourceTree = "<group>"; };
+		6E7BE25F26BAD89C001D3144 /* EditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingView.swift; sourceTree = "<group>"; };
+		6E7BE26626BAEF06001D3144 /* FillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillView.swift; sourceTree = "<group>"; };
+		6E7BE26826BAEFEA001D3144 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		6E7BE26B26BAF0F4001D3144 /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextField.swift; sourceTree = "<group>"; };
+		6E7BE26D26BAF106001D3144 /* PhoneNumberCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberCustomTextField.swift; sourceTree = "<group>"; };
+		6E7BE26F26BAF37E001D3144 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		6E7BE27126BAF543001D3144 /* ApplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyView.swift; sourceTree = "<group>"; };
+		6E7BE27426BAF667001D3144 /* DocumentTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTextField.swift; sourceTree = "<group>"; };
+		6E7BE27626BAF676001D3144 /* DocumentCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCustomTextField.swift; sourceTree = "<group>"; };
+		6ECB484526B84EDD008F0F4B /* PhoneTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECB484826B84EDD008F0F4B /* PhoneTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTextFieldApp.swift; sourceTree = "<group>"; };
+		6ECB484A26B84EDD008F0F4B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6ECB484C26B84EE2008F0F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECB484F26B84EE2008F0F4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6ECB485126B84EE2008F0F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECB485726B84F17008F0F4B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6ECB485926B84F50008F0F4B /* ValidateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateViewModel.swift; sourceTree = "<group>"; };
+		6ECB485B26B84FCB008F0F4B /* PhoneTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTextField.swift; sourceTree = "<group>"; };
+		6ECB485D26B85001008F0F4B /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		6ECB485F26B85061008F0F4B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6EF77ABF26B9B0FA00D11DCB /* MonthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthTextField.swift; sourceTree = "<group>"; };
+		6EF77AC126B9B5F100D11DCB /* MonthCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCustomTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECB484226B84EDD008F0F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E525FB926BA52E000483D37 /* MonthTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6EF77AC126B9B5F100D11DCB /* MonthCustomTextField.swift */,
+				6EF77ABF26B9B0FA00D11DCB /* MonthTextField.swift */,
+			);
+			path = MonthTextField;
+			sourceTree = "<group>";
+		};
+		6E525FBE26BA531400483D37 /* YearCustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6E525FBA26BA52FC00483D37 /* YearTextField.swift */,
+				6E525FBF26BA533C00483D37 /* YYYCustomTextField.swift */,
+			);
+			path = YearCustomTextField;
+			sourceTree = "<group>";
+		};
+		6E525FC526BA572200483D37 /* CVTxtField */ = {
+			isa = PBXGroup;
+			children = (
+				6E525FC126BA570F00483D37 /* CVTextField.swift */,
+				6E525FC326BA571B00483D37 /* CVCustomTextfield.swift */,
+			);
+			path = CVTxtField;
+			sourceTree = "<group>";
+		};
+		6E525FC626BA575B00483D37 /* PTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB485726B84F17008F0F4B /* CustomTextField.swift */,
+				6ECB485B26B84FCB008F0F4B /* PhoneTextField.swift */,
+			);
+			path = PTextField;
+			sourceTree = "<group>";
+		};
+		6E525FC726BA576A00483D37 /* Exensions+help */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB485F26B85061008F0F4B /* StringExtension.swift */,
+				6ECB485D26B85001008F0F4B /* Color+Hex.swift */,
+				6ECB485926B84F50008F0F4B /* ValidateViewModel.swift */,
+			);
+			path = "Exensions+help";
+			sourceTree = "<group>";
+		};
+		6E7BE24D26BABEB7001D3144 /* TextFIeldView */ = {
+			isa = PBXGroup;
+			children = (
+				6E7BE27326BAF64C001D3144 /* DocumentTextField */,
+				6E7BE26A26BAF0D9001D3144 /* PhoneNumber */,
+				6E525FB926BA52E000483D37 /* MonthTextField */,
+				6E7BE25126BAC3BC001D3144 /* PlaceholderTextField */,
+				6E525FBE26BA531400483D37 /* YearCustomTextField */,
+				6E525FC626BA575B00483D37 /* PTextField */,
+				6E525FC526BA572200483D37 /* CVTxtField */,
+			);
+			path = TextFIeldView;
+			sourceTree = "<group>";
+		};
+		6E7BE24E26BABED8001D3144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB484A26B84EDD008F0F4B /* CardView.swift */,
+				6E7BE24F26BAC0AB001D3144 /* FilterView.swift */,
+				6E7BE25B26BACDAC001D3144 /* SizeView.swift */,
+				6E7BE25F26BAD89C001D3144 /* EditingView.swift */,
+				6E7BE26626BAEF06001D3144 /* FillView.swift */,
+				6E7BE26826BAEFEA001D3144 /* AddContactView.swift */,
+				6E7BE26F26BAF37E001D3144 /* ContactView.swift */,
+				6E7BE27126BAF543001D3144 /* ApplyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E7BE25126BAC3BC001D3144 /* PlaceholderTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6E7BE25226BAC3DF001D3144 /* SizeTextField.swift */,
+				6E7BE25426BAC3ED001D3144 /* SizeCustomTextField.swift */,
+			);
+			path = PlaceholderTextField;
+			sourceTree = "<group>";
+		};
+		6E7BE25826BACCED001D3144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E7BE25626BACCE5001D3144 /* LoginViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E7BE26A26BAF0D9001D3144 /* PhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				6E7BE26B26BAF0F4001D3144 /* PhoneNumberTextField.swift */,
+				6E7BE26D26BAF106001D3144 /* PhoneNumberCustomTextField.swift */,
+			);
+			path = PhoneNumber;
+			sourceTree = "<group>";
+		};
+		6E7BE27326BAF64C001D3144 /* DocumentTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6E7BE27426BAF667001D3144 /* DocumentTextField.swift */,
+				6E7BE27626BAF676001D3144 /* DocumentCustomTextField.swift */,
+			);
+			path = DocumentTextField;
+			sourceTree = "<group>";
+		};
+		6ECB483C26B84EDD008F0F4B = {
+			isa = PBXGroup;
+			children = (
+				6ECB484C26B84EE2008F0F4B /* Assets.xcassets */,
+				6ECB484726B84EDD008F0F4B /* PhoneTextField */,
+				6ECB484626B84EDD008F0F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECB484626B84EDD008F0F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB484526B84EDD008F0F4B /* PhoneTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECB484726B84EDD008F0F4B /* PhoneTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB484826B84EDD008F0F4B /* PhoneTextFieldApp.swift */,
+				6ECB485126B84EE2008F0F4B /* Info.plist */,
+				6E7BE24E26BABED8001D3144 /* View */,
+				6E7BE25826BACCED001D3144 /* Model */,
+				6ECB484E26B84EE2008F0F4B /* Preview Content */,
+				6E7BE24D26BABEB7001D3144 /* TextFIeldView */,
+				6E525FC726BA576A00483D37 /* Exensions+help */,
+			);
+			path = PhoneTextField;
+			sourceTree = "<group>";
+		};
+		6ECB484E26B84EE2008F0F4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB484F26B84EE2008F0F4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECB484426B84EDD008F0F4B /* PhoneTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECB485426B84EE2008F0F4B /* Build configuration list for PBXNativeTarget "PhoneTextField" */;
+			buildPhases = (
+				6ECB484126B84EDD008F0F4B /* Sources */,
+				6ECB484226B84EDD008F0F4B /* Frameworks */,
+				6ECB484326B84EDD008F0F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneTextField;
+			productName = PhoneTextField;
+			productReference = 6ECB484526B84EDD008F0F4B /* PhoneTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECB483D26B84EDD008F0F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6ECB484426B84EDD008F0F4B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6ECB484026B84EDD008F0F4B /* Build configuration list for PBXProject "PhoneTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECB483C26B84EDD008F0F4B;
+			productRefGroup = 6ECB484626B84EDD008F0F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECB484426B84EDD008F0F4B /* PhoneTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECB484326B84EDD008F0F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECB485026B84EE2008F0F4B /* Preview Assets.xcassets in Resources */,
+				6ECB484D26B84EE2008F0F4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECB484126B84EDD008F0F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7BE25026BAC0AB001D3144 /* FilterView.swift in Sources */,
+				6ECB485A26B84F50008F0F4B /* ValidateViewModel.swift in Sources */,
+				6ECB486026B85061008F0F4B /* StringExtension.swift in Sources */,
+				6ECB484B26B84EDD008F0F4B /* CardView.swift in Sources */,
+				6E7BE27726BAF676001D3144 /* DocumentCustomTextField.swift in Sources */,
+				6E7BE25526BAC3ED001D3144 /* SizeCustomTextField.swift in Sources */,
+				6E525FC426BA571B00483D37 /* CVCustomTextfield.swift in Sources */,
+				6ECB484926B84EDD008F0F4B /* PhoneTextFieldApp.swift in Sources */,
+				6E525FBB26BA52FC00483D37 /* YearTextField.swift in Sources */,
+				6E525FC026BA533C00483D37 /* YYYCustomTextField.swift in Sources */,
+				6E7BE26C26BAF0F4001D3144 /* PhoneNumberTextField.swift in Sources */,
+				6E7BE25C26BACDAC001D3144 /* SizeView.swift in Sources */,
+				6ECB485C26B84FCB008F0F4B /* PhoneTextField.swift in Sources */,
+				6E7BE25726BACCE5001D3144 /* LoginViewModel.swift in Sources */,
+				6E7BE26926BAEFEA001D3144 /* AddContactView.swift in Sources */,
+				6E7BE25326BAC3DF001D3144 /* SizeTextField.swift in Sources */,
+				6ECB485826B84F17008F0F4B /* CustomTextField.swift in Sources */,
+				6EF77AC026B9B0FA00D11DCB /* MonthTextField.swift in Sources */,
+				6E7BE26E26BAF106001D3144 /* PhoneNumberCustomTextField.swift in Sources */,
+				6E7BE26026BAD89D001D3144 /* EditingView.swift in Sources */,
+				6E7BE27026BAF37F001D3144 /* ContactView.swift in Sources */,
+				6E7BE27226BAF543001D3144 /* ApplyView.swift in Sources */,
+				6ECB485E26B85001008F0F4B /* Color+Hex.swift in Sources */,
+				6E7BE27526BAF667001D3144 /* DocumentTextField.swift in Sources */,
+				6E525FC226BA570F00483D37 /* CVTextField.swift in Sources */,
+				6EF77AC226B9B5F100D11DCB /* MonthCustomTextField.swift in Sources */,
+				6E7BE26726BAEF06001D3144 /* FillView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6ECB485226B84EE2008F0F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ECB485326B84EE2008F0F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ECB485526B84EE2008F0F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneTextField/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TK89P9NL4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhoneTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kz.bcc.aknur.PhoneTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ECB485626B84EE2008F0F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneTextField/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TK89P9NL4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhoneTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kz.bcc.aknur.PhoneTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECB484026B84EDD008F0F4B /* Build configuration list for PBXProject "PhoneTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECB485226B84EE2008F0F4B /* Debug */,
+				6ECB485326B84EE2008F0F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECB485426B84EE2008F0F4B /* Build configuration list for PBXNativeTarget "PhoneTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECB485526B84EE2008F0F4B /* Debug */,
+				6ECB485626B84EE2008F0F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECB483D26B84EDD008F0F4B /* Project object */;
+}
